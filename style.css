@@ -1,0 +1,108 @@
+/*
+Theme Name: 3Mag
+*/
+
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #4c4c4c;
+}
+
+#head-presentaion{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid gray;
+}
+a
+{
+    color: #e4a700;
+    text-decoration: none;
+}
+
+.elementor-widget-button .elementor-button
+{
+    background-color: #e4a700 !important;
+}
+
+.adherant
+{
+    height: 20px;
+    line-height: 20px;
+    text-transform: none;
+    vertical-align: middle;
+    border-radius: 15px;
+    background: #4c4c4c;
+    display: inline-block;
+    width: auto;
+    height: 31px;
+    padding: 0 20px;
+    /* text-transform: uppercase; */
+    font-size: 12px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    line-height: 32px;
+    border: none;
+    outline: 0;
+    border-radius: 25px;
+    -webkit-transition: All .3s linear;
+    transition: All .3s linear;
+    -webkit-box-shadow: 0 5px 20px 0 rgba(76,76,76,.1);
+    -o-box-shadow: 0 5px 20px 0 rgba(76,76,76,.1);
+    box-shadow: 0 5px 20px 0 rgba(76,76,76,.1);
+}
+
+nav.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 31px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+
+}
+
+#menu-header{
+    padding: 0;
+    margin: 0 ;
+
+}
+
+.navbar-nav
+{
+    list-style-type: none;
+    display: flex;
+}
+.nav-link
+{
+    display: inline-block;
+    text-decoration: none; 
+    padding: 10px;
+
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 7px;
+    text-transform: uppercase;
+    color: #4c4c4c;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    -webkit-transition: All .3s linear;
+    transition: All .3s linear;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+nav .logo img{
+    width: auto;
+    height: 70px;
+    float: left;
+}
+
